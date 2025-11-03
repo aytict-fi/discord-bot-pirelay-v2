@@ -8,7 +8,7 @@ python3 bot.py
 ```
 ## Running as a Linux service
 ```
-cp discordbot.service /etc/systemd/system
+sudo cp discordbot.service /etc/systemd/system
 
 sudo systemctl daemon-reload
 
